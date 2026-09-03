@@ -1,0 +1,19 @@
+@prefix ex: <http://example.org/lod/> .
+@prefix schema: <https://schema.org/> .
+
+ex:alice a schema:Person ;
+    schema:name "Alice Hartono" ;
+    schema:jobTitle "Data Engineer" ;
+    schema:knows ex:budi .
+
+ex:budi a schema:Person ;
+    schema:name "Budi Santoso" ;
+    schema:jobTitle "Semantic Web Researcher" ;
+    schema:knows ex:alice .
+
+ex:semantic-web a schema:Course ;
+    schema:name "Semantic Web Fundamentals" ;
+    schema:about ex:linked-data .
+
+ex:linked-data a schema:Thing ;
+    schema:name "Linked Open Data" .

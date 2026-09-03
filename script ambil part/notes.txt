@@ -1,0 +1,51 @@
+proses import
+1. Membuat Constraint (Wajib untuk n10s)
+CREATE CONSTRAINT n10s_unique_uri FOR (r:Resource) REQUIRE r.uri IS UNIQUE;
+
+2. Inisialisasi Konfigurasi Graph
+CALL n10s.graphconfig.init({
+  handleVocabUris: "SHORTEN"
+});
+
+3. Eksekusi Import
+CALL n10s.rdf.import.fetch("file:////C:/Users/MUHAMMAD HARISH/.Neo4jDesktop2/Data/dbmss/dbms-9df684ee-aff2-4481-9466-c929589d7f78/import/cso_software_engineering_filtered.ttl", "Turtle");
+
+4. Verifikasi Hasil Import
+// Melihat 50 node pertama beserta relasinya
+MATCH (n)-[r]->(m) RETURN n, r, m LIMIT 50;
+
+// Melihat relasi superTopicOf (Hierarki)
+MATCH (parent)-[:cso__superTopicOf]->(child) 
+RETURN parent.uri, child.uri LIMIT 10;
+
+
+//melihat grafik "anak-anak" dari Software Engineering
+MATCH (induk:ns0__Topic)-[:ns0__superTopicOf]->(anak:ns0__Topic)
+WHERE induk.uri CONTAINS "software_engineering"
+RETURN induk.rdfs__label AS Topik_Utama, anak.rdfs__label AS Sub_Topik
+LIMIT 15; 
+
+
+=============
+//Visualisasi Struktur Hierarki Utama (Induk -> Anak)
+MATCH (induk:ns0__Topic)-[r:ns0__superTopicOf]->(anak:ns0__Topic)
+WHERE induk.uri CONTAINS "software_engineering"
+RETURN induk, r, anak
+LIMIT 30
+
+//Visualisasi Jaringan Kontribusi (Hubungan Horizontal)
+MATCH (n:ns0__Topic)-[r:ns0__contributesTo]->(m:ns0__Topic)
+WHERE n.uri CONTAINS "software_engineering"
+RETURN n, r, m
+LIMIT 30
+
+//Visualisasi Topik yang Setara / Sinonim (Equivalent Cluster)
+MATCH (n:ns0__Topic)-[r:ns0__relatedEquivalent]->(m:ns0__Topic)
+RETURN n, r, m
+LIMIT 20
+
+//Visualisasi Grafik Campuran (Rekomendasi untuk Demo)
+MATCH (n:ns0__Topic)-[r]->(m:ns0__Topic)
+WHERE n.uri CONTAINS "software_engineering" OR m.uri CONTAINS "software_engineering"
+RETURN n, r, m
+LIMIT 50

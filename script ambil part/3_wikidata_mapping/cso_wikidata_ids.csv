@@ -1,0 +1,306 @@
+cso_uri,cso_label,wikidata_id
+https://cso.kmi.open.ac.uk/topics/software_engineering,software engineering,Q80993
+https://cso.kmi.open.ac.uk/topics/3d_printers,3d printers,Q229367
+https://cso.kmi.open.ac.uk/topics/adaptive_hypermedia_systems,adaptive hypermedia systems,Q837900
+https://cso.kmi.open.ac.uk/topics/architecture_documentation,architecture documentation,Q181702
+https://cso.kmi.open.ac.uk/topics/circuit_simulation,circuit simulation,Q1270401
+https://cso.kmi.open.ac.uk/topics/clause_learning,clause learning,Q117364
+https://cso.kmi.open.ac.uk/topics/cmmi,cmmi,Q428361
+https://cso.kmi.open.ac.uk/topics/component-based_software_systems,component-based software systems,Q609588
+https://cso.kmi.open.ac.uk/topics/concurrent_programming,concurrent programming,Q128392
+https://cso.kmi.open.ac.uk/topics/configuration_memory,configuration memory,Q492
+https://cso.kmi.open.ac.uk/topics/failover,failover,Q998767
+https://cso.kmi.open.ac.uk/topics/fault_tolerant_controllers,fault tolerant controllers,Q15260926
+https://cso.kmi.open.ac.uk/topics/generative_programming,generative programming,Q762268
+https://cso.kmi.open.ac.uk/topics/global_software_engineering,global software engineering,Q80993
+https://cso.kmi.open.ac.uk/topics/hbase,hbase,Q2538066
+https://cso.kmi.open.ac.uk/topics/hdfs,hdfs,Q29120
+https://cso.kmi.open.ac.uk/topics/iso%2Fiec_9126-i,iso/iec 9126-i,Q15028
+https://cso.kmi.open.ac.uk/topics/knowledge_engineering,knowledge engineering,Q1540472
+https://cso.kmi.open.ac.uk/topics/micro_and_nano_systems,micro and nano systems,Q154121
+https://cso.kmi.open.ac.uk/topics/model_checking_algorithm,model checking algorithm,Q1569697
+https://cso.kmi.open.ac.uk/topics/non-homogeneous_poisson_process,non-homogeneous poisson process,Q1145117
+https://cso.kmi.open.ac.uk/topics/object_constraint_language,object constraint language,Q1397689
+https://cso.kmi.open.ac.uk/topics/partial_order_reductions,partial order reductions,Q474715
+https://cso.kmi.open.ac.uk/topics/process_engineering,process engineering,Q2144042
+https://cso.kmi.open.ac.uk/topics/propositional_satisfiability,propositional satisfiability,Q875276
+https://cso.kmi.open.ac.uk/topics/prototyping_process,prototyping process,Q207977
+https://cso.kmi.open.ac.uk/topics/sat-solving,sat-solving,Q875276
+https://cso.kmi.open.ac.uk/topics/security_engineering,security engineering,Q365674
+https://cso.kmi.open.ac.uk/topics/selective_laser_melting,selective laser melting,Q2267983
+https://cso.kmi.open.ac.uk/topics/selective_laser_sintering,selective laser sintering,Q428412
+https://cso.kmi.open.ac.uk/topics/self-stabilizing_algorithm,self-stabilizing algorithm,Q2873036
+https://cso.kmi.open.ac.uk/topics/software_architecture_decay,software architecture decay,Q846636
+https://cso.kmi.open.ac.uk/topics/software_architecture_erosion,software architecture erosion,Q846636
+https://cso.kmi.open.ac.uk/topics/software_architecture_reconstruction,software architecture reconstruction,Q846636
+https://cso.kmi.open.ac.uk/topics/software_architecture_reverse_engineering,software architecture reverse engineering,Q846636
+https://cso.kmi.open.ac.uk/topics/software_design,software design,Q857102
+https://cso.kmi.open.ac.uk/topics/software_industry,software industry,Q880371
+https://cso.kmi.open.ac.uk/topics/software_verification,software verification,Q6504747
+https://cso.kmi.open.ac.uk/topics/static_program_analysis,static program analysis,Q1329550
+https://cso.kmi.open.ac.uk/topics/stereolithography,stereolithography,Q1022471
+https://cso.kmi.open.ac.uk/topics/system_testing,system testing,Q1199682
+https://cso.kmi.open.ac.uk/topics/system_usability,system usability,Q216378
+https://cso.kmi.open.ac.uk/topics/technology_innovation,technology innovation,Q174165
+https://cso.kmi.open.ac.uk/topics/usability_engineering,usability engineering,Q1642623
+https://cso.kmi.open.ac.uk/topics/user_testing,user testing,Q667421
+https://cso.kmi.open.ac.uk/topics/verilog-a,verilog-a,Q7921338
+https://cso.kmi.open.ac.uk/topics/web_usability,web usability,Q1636686
+https://cso.kmi.open.ac.uk/topics/adaptive_hypermedia,adaptive hypermedia,Q837900
+https://cso.kmi.open.ac.uk/topics/agile_software_development,agile software development,Q30232
+https://cso.kmi.open.ac.uk/topics/ambient_assisted_living,ambient assisted living,Q315412
+https://cso.kmi.open.ac.uk/topics/architecture_description,architecture description,Q7554254
+https://cso.kmi.open.ac.uk/topics/byzantine_failures,byzantine failures,Q1353446
+https://cso.kmi.open.ac.uk/topics/cloud_software_architecture,cloud software architecture,Q483639
+https://cso.kmi.open.ac.uk/topics/code_smell,code smell,Q2295111
+https://cso.kmi.open.ac.uk/topics/computation_tree_logic,computation tree logic,Q1040040
+https://cso.kmi.open.ac.uk/topics/computer_software_reusability,computer software reusability,Q7397
+https://cso.kmi.open.ac.uk/topics/distributed_development,distributed development,Q5283148
+https://cso.kmi.open.ac.uk/topics/epistemic_logic,epistemic logic,Q1347436
+https://cso.kmi.open.ac.uk/topics/fault-tolerance_capability,fault-tolerance capability,Q15260926
+https://cso.kmi.open.ac.uk/topics/fault-tolerant_routing_algorithm,fault-tolerant routing algorithm,Q15260926
+https://cso.kmi.open.ac.uk/topics/fault-tolerant_systems,fault-tolerant systems,Q15260926
+https://cso.kmi.open.ac.uk/topics/fault_tolerant_control_systems,fault tolerant control systems,Q15260926
+https://cso.kmi.open.ac.uk/topics/function_point_analysis,function point analysis,Q1277601
+https://cso.kmi.open.ac.uk/topics/goal-oriented_requirements_engineering,goal-oriented requirements engineering,Q376937
+https://cso.kmi.open.ac.uk/topics/hadoop,hadoop,Q29120
+https://cso.kmi.open.ac.uk/topics/hoare_logic,hoare logic,Q1375924
+https://cso.kmi.open.ac.uk/topics/home_automation,home automation,Q184199
+https://cso.kmi.open.ac.uk/topics/infinite_state_systems,infinite state systems,Q205
+https://cso.kmi.open.ac.uk/topics/information_system_architecture,information system architecture,Q477538
+https://cso.kmi.open.ac.uk/topics/iso%2Fiec_15504,iso/iec 15504,Q15028
+https://cso.kmi.open.ac.uk/topics/join_point,join point,Q6269007
+https://cso.kmi.open.ac.uk/topics/legacy_code,legacy code,Q3829554
+https://cso.kmi.open.ac.uk/topics/ltl_model-checking,ltl model-checking,Q1536492
+https://cso.kmi.open.ac.uk/topics/mapreduce_frameworks,mapreduce frameworks,Q567759
+https://cso.kmi.open.ac.uk/topics/model_checking_problem,model checking problem,Q1569697
+https://cso.kmi.open.ac.uk/topics/monadic_second-order_logic,monadic second-order logic,Q26899137
+https://cso.kmi.open.ac.uk/topics/object_oriented_design,object oriented design,Q79872
+https://cso.kmi.open.ac.uk/topics/osgi,osgi,Q1156326
+https://cso.kmi.open.ac.uk/topics/presburger_arithmetic,presburger arithmetic,Q956059
+https://cso.kmi.open.ac.uk/topics/probabilistic_model_checking,probabilistic model checking,Q1569697
+https://cso.kmi.open.ac.uk/topics/radiation_hardening,radiation hardening,Q3026015
+https://cso.kmi.open.ac.uk/topics/rapid_manufacturing,rapid manufacturing,Q229367
+https://cso.kmi.open.ac.uk/topics/regression_test_selection,regression test selection,Q917415
+https://cso.kmi.open.ac.uk/topics/regression_tests,regression tests,Q917415
+https://cso.kmi.open.ac.uk/topics/replication_strategies,replication strategies,Q130996
+https://cso.kmi.open.ac.uk/topics/requirement_engineering,requirement engineering,Q376937
+https://cso.kmi.open.ac.uk/topics/runtime_concerns,runtime concerns,Q1004415
+https://cso.kmi.open.ac.uk/topics/security_requirements_engineering,security requirements engineering,Q187147
+https://cso.kmi.open.ac.uk/topics/self-stabilization,self-stabilization,Q2873036
+https://cso.kmi.open.ac.uk/topics/soft_error_rate,soft error rate,Q1658917
+https://cso.kmi.open.ac.uk/topics/software_defect_prediction,software defect prediction,Q179550
+https://cso.kmi.open.ac.uk/topics/software_engineering_course,software engineering course,Q80993
+https://cso.kmi.open.ac.uk/topics/software_process_assessment,software process assessment,Q2904257
+https://cso.kmi.open.ac.uk/topics/software_quality_criteria,software quality criteria,Q1412670
+https://cso.kmi.open.ac.uk/topics/software_quality_framework,software quality framework,Q1412670
+https://cso.kmi.open.ac.uk/topics/software_quality_planning,software quality planning,Q1412670
+https://cso.kmi.open.ac.uk/topics/system_architecture,system architecture,Q477538
+https://cso.kmi.open.ac.uk/topics/technical_debt,technical debt,Q1532172
+https://cso.kmi.open.ac.uk/topics/test_case_prioritization,test case prioritization,Q1568346
+https://cso.kmi.open.ac.uk/topics/traceability_management,traceability management,Q1246885
+https://cso.kmi.open.ac.uk/topics/trade-off_analysis,trade-off analysis,Q638123
+https://cso.kmi.open.ac.uk/topics/uml_state_machine,uml state machine,Q169411
+https://cso.kmi.open.ac.uk/topics/usability_evaluation_methods,usability evaluation methods,Q216378
+https://cso.kmi.open.ac.uk/topics/architectural_knowledge_management,architectural knowledge management,Q192060
+https://cso.kmi.open.ac.uk/topics/architectural_model,architectural model,Q1352349
+https://cso.kmi.open.ac.uk/topics/business_process_reengineering,business process reengineering,Q851587
+https://cso.kmi.open.ac.uk/topics/business_process_reengineering_%28bpr%29,business process reengineering (bpr),Q851587
+https://cso.kmi.open.ac.uk/topics/byzantine_fault_tolerance,byzantine fault tolerance,Q1353446
+https://cso.kmi.open.ac.uk/topics/cobol_%28programming_language%29,cobol (programming language),Q131140
+https://cso.kmi.open.ac.uk/topics/collaborative_software_development,collaborative software development,Q474157
+https://cso.kmi.open.ac.uk/topics/complex_adaptive_system,complex adaptive system,Q581233
+https://cso.kmi.open.ac.uk/topics/concrete_syntax,concrete syntax,Q627921
+https://cso.kmi.open.ac.uk/topics/concurrent_systems,concurrent systems,Q1414548
+https://cso.kmi.open.ac.uk/topics/fault-tolerance,fault-tolerance,Q15260926
+https://cso.kmi.open.ac.uk/topics/fault-tolerant_control,fault-tolerant control,Q15260926
+https://cso.kmi.open.ac.uk/topics/fault_injection,fault injection,Q2041312
+https://cso.kmi.open.ac.uk/topics/heuristic_evaluation,heuristic evaluation,Q1616517
+https://cso.kmi.open.ac.uk/topics/linear_temporal_logic,linear temporal logic,Q1536492
+https://cso.kmi.open.ac.uk/topics/meta-programming,meta-programming,Q661075
+https://cso.kmi.open.ac.uk/topics/modelling_language,modelling language,Q1941921
+https://cso.kmi.open.ac.uk/topics/obfuscation,obfuscation,Q2616305
+https://cso.kmi.open.ac.uk/topics/open_source_system,open source system,Q39162
+https://cso.kmi.open.ac.uk/topics/process_modelling,process modelling,Q3271199
+https://cso.kmi.open.ac.uk/topics/program_verification,program verification,Q173326
+https://cso.kmi.open.ac.uk/topics/refactoring_tools,refactoring tools,Q116877
+https://cso.kmi.open.ac.uk/topics/requirements_management,requirements management,Q530038
+https://cso.kmi.open.ac.uk/topics/reusable_components,reusable components,Q30128
+https://cso.kmi.open.ac.uk/topics/software_quality_assurance,software quality assurance,Q613918
+https://cso.kmi.open.ac.uk/topics/system_requirements,system requirements,Q2275513
+https://cso.kmi.open.ac.uk/topics/test_case_selection,test case selection,Q1568346
+https://cso.kmi.open.ac.uk/topics/transition_systems,transition systems,Q176468
+https://cso.kmi.open.ac.uk/topics/triple_modular_redundancy,triple modular redundancy,Q3998979
+https://cso.kmi.open.ac.uk/topics/usability_test,usability test,Q667421
+https://cso.kmi.open.ac.uk/topics/usability_testing,usability testing,Q667421
+https://cso.kmi.open.ac.uk/topics/web_engineering,web engineering,Q1196135
+https://cso.kmi.open.ac.uk/topics/architecture_frameworks,architecture frameworks,Q4380897
+https://cso.kmi.open.ac.uk/topics/aspect-oriented_software_development,aspect-oriented software development,Q14326701
+https://cso.kmi.open.ac.uk/topics/autofocus,autofocus,Q210008
+https://cso.kmi.open.ac.uk/topics/autonomic_computing,autonomic computing,Q788172
+https://cso.kmi.open.ac.uk/topics/autonomic_systems,autonomic systems,Q788172
+https://cso.kmi.open.ac.uk/topics/autosar,autosar,Q300113
+https://cso.kmi.open.ac.uk/topics/capability_maturity_model,capability maturity model,Q929673
+https://cso.kmi.open.ac.uk/topics/cloud-based_architecture,cloud-based architecture,Q483639
+https://cso.kmi.open.ac.uk/topics/component-based_software_development,component-based software development,Q609588
+https://cso.kmi.open.ac.uk/topics/computer_software_maintenance,computer software maintenance,Q7397
+https://cso.kmi.open.ac.uk/topics/darwin,darwin,Q11568
+https://cso.kmi.open.ac.uk/topics/debugging_process,debugging process,Q845566
+https://cso.kmi.open.ac.uk/topics/devops,devops,Q3025536
+https://cso.kmi.open.ac.uk/topics/dsdm,dsdm,Q2335896
+https://cso.kmi.open.ac.uk/topics/formal_verification,formal verification,Q173326
+https://cso.kmi.open.ac.uk/topics/functional_requirements,functional requirements,Q3264234
+https://cso.kmi.open.ac.uk/topics/iot,iot,Q251212
+https://cso.kmi.open.ac.uk/topics/koala,koala,Q36101
+https://cso.kmi.open.ac.uk/topics/model-checking_techniques,model-checking techniques,Q1569697
+https://cso.kmi.open.ac.uk/topics/model_checkers,model checkers,Q1569697
+https://cso.kmi.open.ac.uk/topics/object-oriented_design,object-oriented design,Q7075021
+https://cso.kmi.open.ac.uk/topics/pointcut,pointcut,Q7208301
+https://cso.kmi.open.ac.uk/topics/process_modeling,process modeling,Q3271199
+https://cso.kmi.open.ac.uk/topics/prototyping,prototyping,Q207977
+https://cso.kmi.open.ac.uk/topics/regression_testing,regression testing,Q917415
+https://cso.kmi.open.ac.uk/topics/requirements_specification,requirements specification,Q1761598
+https://cso.kmi.open.ac.uk/topics/saam,saam,Q1192305
+https://cso.kmi.open.ac.uk/topics/satisfiability_modulo_theories,satisfiability modulo theories,Q2067766
+https://cso.kmi.open.ac.uk/topics/sequence_diagram,sequence diagram,Q1391624
+https://cso.kmi.open.ac.uk/topics/software_architecture,software architecture,Q846636
+https://cso.kmi.open.ac.uk/topics/software_development_methodologies,software development methodologies,Q2904257
+https://cso.kmi.open.ac.uk/topics/software_development_methods,software development methods,Q638608
+https://cso.kmi.open.ac.uk/topics/software_engineering_education,software engineering education,Q80993
+https://cso.kmi.open.ac.uk/topics/uml_activity_diagrams,uml activity diagrams,Q169411
+https://cso.kmi.open.ac.uk/topics/uml_class_diagrams,uml class diagrams,Q169411
+https://cso.kmi.open.ac.uk/topics/uml_modeling,uml modeling,Q169411
+https://cso.kmi.open.ac.uk/topics/uml_sequence_diagrams,uml sequence diagrams,Q169411
+https://cso.kmi.open.ac.uk/topics/unified_modeling_language_%28uml%29,unified modeling language (uml),Q169411
+https://cso.kmi.open.ac.uk/topics/unified_modelling_language,unified modelling language,Q169411
+https://cso.kmi.open.ac.uk/topics/architectural_knowledge_sharing,architectural knowledge sharing,Q6423395
+https://cso.kmi.open.ac.uk/topics/architectural_technical_debt,architectural technical debt,Q1532172
+https://cso.kmi.open.ac.uk/topics/architecture_knowledge_exploiting,architecture knowledge exploiting,Q12271
+https://cso.kmi.open.ac.uk/topics/business_process_re-engineering,business process re-engineering,Q851587
+https://cso.kmi.open.ac.uk/topics/byzantine_fault,byzantine fault,Q12544
+https://cso.kmi.open.ac.uk/topics/decision_procedure,decision procedure,Q3262192
+https://cso.kmi.open.ac.uk/topics/domain_engineering,domain engineering,Q5289815
+https://cso.kmi.open.ac.uk/topics/fault_tolerant_control,fault tolerant control,Q15260926
+https://cso.kmi.open.ac.uk/topics/fault_tolerant_routing,fault tolerant routing,Q15260926
+https://cso.kmi.open.ac.uk/topics/legacy_software,legacy software,Q445962
+https://cso.kmi.open.ac.uk/topics/linear_time_temporal_logic,linear time temporal logic,Q2393193
+https://cso.kmi.open.ac.uk/topics/machine-to-machine_%28m2m%29,machine-to-machine (m2m),Q251072
+https://cso.kmi.open.ac.uk/topics/microkernel,microkernel,Q726378
+https://cso.kmi.open.ac.uk/topics/model_to_model_transformation,model to model transformation,Q258040
+https://cso.kmi.open.ac.uk/topics/reference_architecture,reference architecture,Q2136675
+https://cso.kmi.open.ac.uk/topics/rup,rup,Q3656608
+https://cso.kmi.open.ac.uk/topics/safety-critical_systems,safety-critical systems,Q1996307
+https://cso.kmi.open.ac.uk/topics/soft_error,soft error,Q1658917
+https://cso.kmi.open.ac.uk/topics/software_architecture_analysis,software architecture analysis,Q846636
+https://cso.kmi.open.ac.uk/topics/software_architecture_assessment,software architecture assessment,Q846636
+https://cso.kmi.open.ac.uk/topics/software_architecture_evaluation,software architecture evaluation,Q846636
+https://cso.kmi.open.ac.uk/topics/software_bug,software bug,Q179550
+https://cso.kmi.open.ac.uk/topics/software_developer,software developer,Q183888
+https://cso.kmi.open.ac.uk/topics/software_metrics,software metrics,Q657339
+https://cso.kmi.open.ac.uk/topics/software_process_models,software process models,Q2904257
+https://cso.kmi.open.ac.uk/topics/symbolic_model_checking,symbolic model checking,Q1569697
+https://cso.kmi.open.ac.uk/topics/tactics_for_interoperability,tactics for interoperability,Q749647
+https://cso.kmi.open.ac.uk/topics/transition_system,transition system,Q176468
+https://cso.kmi.open.ac.uk/topics/uml,uml,Q169411
+https://cso.kmi.open.ac.uk/topics/uml_diagrams,uml diagrams,Q169411
+https://cso.kmi.open.ac.uk/topics/usability_evaluation,usability evaluation,Q216378
+https://cso.kmi.open.ac.uk/topics/agile_methodologies,agile methodologies,Q30232
+https://cso.kmi.open.ac.uk/topics/architectural_pattern,architectural pattern,Q635346
+https://cso.kmi.open.ac.uk/topics/architectural_patterns,architectural patterns,Q635346
+https://cso.kmi.open.ac.uk/topics/architecture_description_language,architecture description language,Q362356
+https://cso.kmi.open.ac.uk/topics/capability_maturity_model_integration,capability maturity model integration,Q428361
+https://cso.kmi.open.ac.uk/topics/class_diagram,class diagram,Q664166
+https://cso.kmi.open.ac.uk/topics/component-based_architectures,component-based architectures,Q609588
+https://cso.kmi.open.ac.uk/topics/component-based_software_architecture,component-based software architecture,Q609588
+https://cso.kmi.open.ac.uk/topics/component_model,component model,Q609588
+https://cso.kmi.open.ac.uk/topics/cyber-physical_system,cyber-physical system,Q1120057
+https://cso.kmi.open.ac.uk/topics/cyber-physical_systems,cyber-physical systems,Q1120057
+https://cso.kmi.open.ac.uk/topics/cyber-physical_systems_%28cps%29,cyber-physical systems (cps),Q1120057
+https://cso.kmi.open.ac.uk/topics/functional_requirement,functional requirement,Q3264234
+https://cso.kmi.open.ac.uk/topics/legacy_system,legacy system,Q445962
+https://cso.kmi.open.ac.uk/topics/mapreduce,mapreduce,Q567759
+https://cso.kmi.open.ac.uk/topics/model-checking,model-checking,Q1569697
+https://cso.kmi.open.ac.uk/topics/model_view_controller_pattern,model view controller pattern,Q44860
+https://cso.kmi.open.ac.uk/topics/requirement_analysis,requirement analysis,Q187147
+https://cso.kmi.open.ac.uk/topics/run-time_verification,run-time verification,Q1004415
+https://cso.kmi.open.ac.uk/topics/sequence_diagrams,sequence diagrams,Q1391624
+https://cso.kmi.open.ac.uk/topics/software_architecture_design,software architecture design,Q846636
+https://cso.kmi.open.ac.uk/topics/software_process_modeling,software process modeling,Q2904257
+https://cso.kmi.open.ac.uk/topics/static_analysis,static analysis,Q1329550
+https://cso.kmi.open.ac.uk/topics/sysml,sysml,Q2117885
+https://cso.kmi.open.ac.uk/topics/uml_2.0,uml 2.0,Q169411
+https://cso.kmi.open.ac.uk/topics/uml_models,uml models,Q169411
+https://cso.kmi.open.ac.uk/topics/whiteboard,whiteboard,Q16354
+https://cso.kmi.open.ac.uk/topics/activity_diagrams,activity diagrams,Q423262
+https://cso.kmi.open.ac.uk/topics/ambient_intelligence,ambient intelligence,Q457396
+https://cso.kmi.open.ac.uk/topics/architectural_style,architectural style,Q32880
+https://cso.kmi.open.ac.uk/topics/aspect-oriented_programming_%28aop%29,aspect-oriented programming (aop),Q30267
+https://cso.kmi.open.ac.uk/topics/aspect_oriented_programming,aspect oriented programming,Q30267
+https://cso.kmi.open.ac.uk/topics/bug_tracking_system,bug tracking system,Q956086
+https://cso.kmi.open.ac.uk/topics/client-server_architectures,client-server architectures,Q146813
+https://cso.kmi.open.ac.uk/topics/communicating_sequential_processes,communicating sequential processes,Q1120460
+https://cso.kmi.open.ac.uk/topics/domain-specific_modeling,domain-specific modeling,Q5289794
+https://cso.kmi.open.ac.uk/topics/model-based_testing,model-based testing,Q1399743
+https://cso.kmi.open.ac.uk/topics/non-functional_requirements,non-functional requirements,Q3254666
+https://cso.kmi.open.ac.uk/topics/quality_attributes,quality attributes,Q3254666
+https://cso.kmi.open.ac.uk/topics/rational_unified_process,rational unified process,Q478019
+https://cso.kmi.open.ac.uk/topics/reverse_engineering,reverse engineering,Q269608
+https://cso.kmi.open.ac.uk/topics/safety_critical_systems,safety critical systems,Q1996307
+https://cso.kmi.open.ac.uk/topics/software_quality_models,software quality models,Q1412670
+https://cso.kmi.open.ac.uk/topics/software_reuse,software reuse,Q771245
+https://cso.kmi.open.ac.uk/topics/abstract_interpretation,abstract interpretation,Q333341
+https://cso.kmi.open.ac.uk/topics/agile_development,agile development,Q30232
+https://cso.kmi.open.ac.uk/topics/blackboard,blackboard,Q235585
+https://cso.kmi.open.ac.uk/topics/design_rationale,design rationale,Q5264368
+https://cso.kmi.open.ac.uk/topics/extreme_programming,extreme programming,Q209711
+https://cso.kmi.open.ac.uk/topics/formal_specification,formal specification,Q1437424
+https://cso.kmi.open.ac.uk/topics/map-reduce,map-reduce,Q567759
+https://cso.kmi.open.ac.uk/topics/model-driven_architecture,model-driven architecture,Q15188241
+https://cso.kmi.open.ac.uk/topics/model_checking,model checking,Q1569697
+https://cso.kmi.open.ac.uk/topics/model_driven_architecture,model driven architecture,Q15188241
+https://cso.kmi.open.ac.uk/topics/model_driven_engineering,model driven engineering,Q1941909
+https://cso.kmi.open.ac.uk/topics/model_view_controller,model view controller,Q44860
+https://cso.kmi.open.ac.uk/topics/platform-independent_model,platform-independent model,Q839081
+https://cso.kmi.open.ac.uk/topics/program_analysis,program analysis,Q2112188
+https://cso.kmi.open.ac.uk/topics/publish%2Fsubscribe,publish/subscribe,Q1071360
+https://cso.kmi.open.ac.uk/topics/uml_profile,uml profile,Q169411
+https://cso.kmi.open.ac.uk/topics/unified_modeling_language,unified modeling language,Q169411
+https://cso.kmi.open.ac.uk/topics/activity_diagram,activity diagram,Q423262
+https://cso.kmi.open.ac.uk/topics/function_points,function points,Q1277601
+https://cso.kmi.open.ac.uk/topics/microservices_architecture,microservices architecture,Q18344624
+https://cso.kmi.open.ac.uk/topics/model_checker,model checker,Q1569697
+https://cso.kmi.open.ac.uk/topics/program_debugging,program debugging,Q845566
+https://cso.kmi.open.ac.uk/topics/reengineering,reengineering,Q876690
+https://cso.kmi.open.ac.uk/topics/software_defects,software defects,Q7397
+https://cso.kmi.open.ac.uk/topics/source_code,source code,Q128751
+https://cso.kmi.open.ac.uk/topics/symbolic_execution,symbolic execution,Q7661178
+https://cso.kmi.open.ac.uk/topics/test_case_generation,test case generation,Q1568346
+https://cso.kmi.open.ac.uk/topics/architecture_description_languages,architecture description languages,Q362356
+https://cso.kmi.open.ac.uk/topics/aspect-oriented_programming,aspect-oriented programming,Q30267
+https://cso.kmi.open.ac.uk/topics/platform_independent_model,platform independent model,Q174666
+https://cso.kmi.open.ac.uk/topics/service-oriented_architecture,service-oriented architecture,Q220644
+https://cso.kmi.open.ac.uk/topics/service-oriented_architectures,service-oriented architectures,Q220644
+https://cso.kmi.open.ac.uk/topics/service_oriented_architecture,service oriented architecture,Q220644
+https://cso.kmi.open.ac.uk/topics/service_oriented_architectures,service oriented architectures,Q220644
+https://cso.kmi.open.ac.uk/topics/software_process,software process,Q2904257
+https://cso.kmi.open.ac.uk/topics/software_projects,software projects,Q7554222
+https://cso.kmi.open.ac.uk/topics/uml_profiles,uml profiles,Q1421951
+https://cso.kmi.open.ac.uk/topics/component-based_architecture,component-based architecture,Q609588
+https://cso.kmi.open.ac.uk/topics/function_point,function point,Q1277601
+https://cso.kmi.open.ac.uk/topics/model-driven_engineering,model-driven engineering,Q1941909
+https://cso.kmi.open.ac.uk/topics/requirements_analysis,requirements analysis,Q187147
+https://cso.kmi.open.ac.uk/topics/software_maintenance,software maintenance,Q940053
+https://cso.kmi.open.ac.uk/topics/software_process_improvements,software process improvements,Q2904257
+https://cso.kmi.open.ac.uk/topics/software_visualization,software visualization,Q1273511
+https://cso.kmi.open.ac.uk/topics/uml_model,uml model,Q169411
+https://cso.kmi.open.ac.uk/topics/agile_methods,agile methods,Q30232
+https://cso.kmi.open.ac.uk/topics/crosscutting_concerns,crosscutting concerns,Q380990
+https://cso.kmi.open.ac.uk/topics/cyber_physical_systems_%28cpss%29,cyber physical systems (cpss),Q1120057
+https://cso.kmi.open.ac.uk/topics/model_driven_architectures,model driven architectures,Q15188241
+https://cso.kmi.open.ac.uk/topics/microservices,microservices,Q18344624
+https://cso.kmi.open.ac.uk/topics/software_process_improvement,software process improvement,Q2904257
+https://cso.kmi.open.ac.uk/topics/software_repositories,software repositories,Q1334294
+https://cso.kmi.open.ac.uk/topics/service-oriented_architecture_%28soa%29,service-oriented architecture (soa),Q220644
+https://cso.kmi.open.ac.uk/topics/software_quality,software quality,Q1412670
+https://cso.kmi.open.ac.uk/topics/software_development_process,software development process,Q2904257
+https://cso.kmi.open.ac.uk/topics/refactoring,refactoring,Q116877

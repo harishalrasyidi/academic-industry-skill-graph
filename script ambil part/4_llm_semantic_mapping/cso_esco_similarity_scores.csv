@@ -1,0 +1,102 @@
+cso_uri,cso_label,esco_uri,esco_label,esco_type,similarity_score
+https://cso.kmi.open.ac.uk/topics/agile,agile,http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4,Agile project management,Skill,0.7059
+https://cso.kmi.open.ac.uk/topics/agile_development,agile development,http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4,Agile project management,Skill,0.7747
+https://cso.kmi.open.ac.uk/topics/agile_practices,agile practices,http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4,Agile project management,Skill,0.718
+https://cso.kmi.open.ac.uk/topics/agile_process,agile process,http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4,Agile project management,Skill,0.7079
+https://cso.kmi.open.ac.uk/topics/agile_software_development,agile software development,http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4,Agile project management,Skill,0.7974
+https://cso.kmi.open.ac.uk/topics/architectural_models,architectural models,http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc,software architecture models,Skill,0.7087
+https://cso.kmi.open.ac.uk/topics/architecture_design,architecture design,http://data.europa.eu/esco/skill/fae27053-8924-4bfd-b565-c9fe502044c9,system design,Skill,0.7798
+https://cso.kmi.open.ac.uk/topics/architecture_frameworks,architecture frameworks,http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc,software architecture models,Skill,0.7284
+https://cso.kmi.open.ac.uk/topics/architecture_frameworks,architecture frameworks,http://data.europa.eu/esco/skill/24c200e5-be20-4370-a137-ab53797f3a17,software frameworks,Skill,0.7253
+https://cso.kmi.open.ac.uk/topics/cobol_%28programming_language%29,cobol (programming language),http://data.europa.eu/esco/skill/def007fa-5fed-4a5f-91a2-b0d7e3db1be1,COBOL,Skill,0.9042
+https://cso.kmi.open.ac.uk/topics/concurrent_programming,concurrent programming,http://data.europa.eu/esco/skill/25b291b5-8245-4d9d-b391-86a8a31d7109,use concurrent programming,Skill,0.7944
+https://cso.kmi.open.ac.uk/topics/content_management,content management,http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b,manage online content,Skill,0.749
+https://cso.kmi.open.ac.uk/topics/content_management_system,content management system,http://data.europa.eu/esco/skill/1de3942b-99d8-41e8-9ef0-fbc9e9f6307b,Drupal,Skill,0.7314
+https://cso.kmi.open.ac.uk/topics/content_management_system,content management system,http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b,manage online content,Skill,0.7094
+https://cso.kmi.open.ac.uk/topics/content_management_systems,content management systems,http://data.europa.eu/esco/skill/1de3942b-99d8-41e8-9ef0-fbc9e9f6307b,Drupal,Skill,0.7385
+https://cso.kmi.open.ac.uk/topics/content_management_systems,content management systems,http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b,manage online content,Skill,0.7106
+https://cso.kmi.open.ac.uk/topics/debugging_tools,debugging tools,http://data.europa.eu/esco/skill/6014921e-1d25-4039-adc2-04852d61880e,ICT debugging tools,Skill,0.7199
+https://cso.kmi.open.ac.uk/topics/design_pattern,design pattern,http://data.europa.eu/esco/skill/c4ba511c-dc24-44bc-8bc5-10b2d4a191fb,blockchain design patterns,Skill,0.7042
+https://cso.kmi.open.ac.uk/topics/design_patterns,design patterns,http://data.europa.eu/esco/skill/c4ba511c-dc24-44bc-8bc5-10b2d4a191fb,blockchain design patterns,Skill,0.7337
+https://cso.kmi.open.ac.uk/topics/design_patterns,design patterns,http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17,use software design patterns,Skill,0.724
+https://cso.kmi.open.ac.uk/topics/devops,devops,http://data.europa.eu/esco/skill/f0de4973-0a70-4644-8fd4-3a97080476f4,DevOps,Skill,0.7279
+https://cso.kmi.open.ac.uk/topics/hadoop,hadoop,http://data.europa.eu/esco/skill/e46291c7-52b9-4174-bd59-178884861038,Hadoop,Skill,0.8304
+https://cso.kmi.open.ac.uk/topics/incremental_development,incremental development,http://data.europa.eu/esco/skill/00c04e40-35ea-4ed1-824c-82f936c8f876,incremental development,Skill,0.9174
+https://cso.kmi.open.ac.uk/topics/information_system_architecture,information system architecture,http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4,information architecture,Skill,0.8815
+https://cso.kmi.open.ac.uk/topics/knowledge_engineers,knowledge engineers,http://data.europa.eu/esco/occupation/812c217d-32b7-4f6a-9faf-993d3577ac7f,knowledge engineer,Occupation,0.7029
+https://cso.kmi.open.ac.uk/topics/object_oriented_design,object oriented design,http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d,use object-oriented programming,Skill,0.7904
+https://cso.kmi.open.ac.uk/topics/object-oriented_design,object-oriented design,http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d,use object-oriented programming,Skill,0.7976
+https://cso.kmi.open.ac.uk/topics/object-oriented_system,object-oriented system,http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d,use object-oriented programming,Skill,0.7934
+https://cso.kmi.open.ac.uk/topics/open_source_system,open source system,http://data.europa.eu/esco/skill/b16200f4-4f39-4b8b-aa9d-3568054d6bdb,Open source model,Skill,0.7468
+https://cso.kmi.open.ac.uk/topics/process_management,process management,http://data.europa.eu/esco/skill/940a70fa-7c58-423b-8d03-34920b59f0f7,manage processes,Skill,0.7176
+https://cso.kmi.open.ac.uk/topics/process_modeling,process modeling,http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb,business process modelling,Skill,0.7238
+https://cso.kmi.open.ac.uk/topics/process_modelling,process modelling,http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb,business process modelling,Skill,0.7572
+https://cso.kmi.open.ac.uk/topics/process_models,process models,http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb,business process modelling,Skill,0.7028
+https://cso.kmi.open.ac.uk/topics/programming_framework,programming framework,http://data.europa.eu/esco/skill/24c200e5-be20-4370-a137-ab53797f3a17,software frameworks,Skill,0.7426
+https://cso.kmi.open.ac.uk/topics/prototyping,prototyping,http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c,Prototyping development,Skill,0.888
+https://cso.kmi.open.ac.uk/topics/prototyping_process,prototyping process,http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c,Prototyping development,Skill,0.8968
+https://cso.kmi.open.ac.uk/topics/rapid_prototyping,rapid prototyping,http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c,Prototyping development,Skill,0.7722
+https://cso.kmi.open.ac.uk/topics/rapid_prototyping_technology,rapid prototyping technology,http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c,Prototyping development,Skill,0.7741
+https://cso.kmi.open.ac.uk/topics/reverse_engineering,reverse engineering,http://data.europa.eu/esco/skill/a7a14be2-78b5-4b4a-ba77-2658285e2756,apply reverse engineering,Skill,0.8157
+https://cso.kmi.open.ac.uk/topics/security_engineering,security engineering,http://data.europa.eu/esco/skill/6f1edc19-191f-4ba5-a048-ee69aff05bab,security engineering,Skill,0.7668
+https://cso.kmi.open.ac.uk/topics/software_architecture,software architecture,http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc,software architecture models,Skill,0.7279
+https://cso.kmi.open.ac.uk/topics/software_architecture,software architecture,http://data.europa.eu/esco/skill/f7e2eb04-3e50-4561-bce1-7e51a1fec308,define software architecture,Skill,0.7101
+https://cso.kmi.open.ac.uk/topics/software_architecture_design,software architecture design,http://data.europa.eu/esco/skill/fae27053-8924-4bfd-b565-c9fe502044c9,system design,Skill,0.7649
+https://cso.kmi.open.ac.uk/topics/software_architecture_patterns,software architecture patterns,http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc,software architecture models,Skill,0.8601
+https://cso.kmi.open.ac.uk/topics/software_architectures,software architectures,http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc,software architecture models,Skill,0.7634
+https://cso.kmi.open.ac.uk/topics/software_architectures,software architectures,http://data.europa.eu/esco/skill/2857540c-180b-4208-9127-e94a01871966,align software with system architectures,Skill,0.7142
+https://cso.kmi.open.ac.uk/topics/software_debugging,software debugging,http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1,debug software,Skill,0.797
+https://cso.kmi.open.ac.uk/topics/software_defects,software defects,http://data.europa.eu/esco/skill/438ff259-d086-4004-acda-1ec3e1631bc6,software anomalies,Skill,0.7343
+https://cso.kmi.open.ac.uk/topics/software_design,software design,http://data.europa.eu/esco/skill/3bddfd7c-ab6d-40c2-883d-5e97fb7640ba,create software design,Skill,0.7266
+https://cso.kmi.open.ac.uk/topics/software_design,software design,http://data.europa.eu/esco/skill/de0be6e8-644c-4cc9-9c8d-925dd98dda56,software interaction design,Skill,0.7236
+https://cso.kmi.open.ac.uk/topics/software_design_patterns,software design patterns,http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17,use software design patterns,Skill,0.8331
+https://cso.kmi.open.ac.uk/topics/software_developer,software developer,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,software developer,Occupation,0.7038
+https://cso.kmi.open.ac.uk/topics/software_development_life_cycle,software development life cycle,http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575,systems development life-cycle,Skill,0.7932
+https://cso.kmi.open.ac.uk/topics/software_development_methodologies,software development methodologies,http://data.europa.eu/esco/skill/8ff015a0-98ea-4d80-a23e-1f68110a919e,software design methodologies,Skill,0.7598
+https://cso.kmi.open.ac.uk/topics/software_development_methods,software development methods,http://data.europa.eu/esco/skill/8ff015a0-98ea-4d80-a23e-1f68110a919e,software design methodologies,Skill,0.7166
+https://cso.kmi.open.ac.uk/topics/software_faults,software faults,http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1,debug software,Skill,0.7034
+https://cso.kmi.open.ac.uk/topics/software_measurement,software measurement,http://data.europa.eu/esco/skill/fb7aee4d-f6c6-4a87-8e9d-8e542b3771f8,software metrics,Skill,0.8518
+https://cso.kmi.open.ac.uk/topics/software_metrics,software metrics,http://data.europa.eu/esco/skill/fb7aee4d-f6c6-4a87-8e9d-8e542b3771f8,software metrics,Skill,0.9556
+https://cso.kmi.open.ac.uk/topics/software_process_modeling,software process modeling,http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb,business process modelling,Skill,0.7121
+https://cso.kmi.open.ac.uk/topics/software_process_models,software process models,http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb,business process modelling,Skill,0.7043
+https://cso.kmi.open.ac.uk/topics/software_requirements_specifications,software requirements specifications,http://data.europa.eu/esco/skill/f28617ad-afdd-4041-814c-216153a38998,analyse software specifications,Skill,0.709
+https://cso.kmi.open.ac.uk/topics/software_visualization,software visualization,http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1,data visualisation software,Skill,0.7179
+https://cso.kmi.open.ac.uk/topics/system_architecture,system architecture,http://data.europa.eu/esco/skill/fae27053-8924-4bfd-b565-c9fe502044c9,system design,Skill,0.8647
+https://cso.kmi.open.ac.uk/topics/system_architecture,system architecture,http://data.europa.eu/esco/skill/e043aeeb-78f5-4049-afbf-12bba52225bc,hardware architectures,Skill,0.7144
+https://cso.kmi.open.ac.uk/topics/system_architectures,system architectures,http://data.europa.eu/esco/skill/fae27053-8924-4bfd-b565-c9fe502044c9,system design,Skill,0.8256
+https://cso.kmi.open.ac.uk/topics/system_architectures,system architectures,http://data.europa.eu/esco/skill/e043aeeb-78f5-4049-afbf-12bba52225bc,hardware architectures,Skill,0.7508
+https://cso.kmi.open.ac.uk/topics/system_usability,system usability,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.7511
+https://cso.kmi.open.ac.uk/topics/system_usability,system usability,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.7086
+https://cso.kmi.open.ac.uk/topics/uml_model,uml model,http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3,unified modelling language,Skill,0.7008
+https://cso.kmi.open.ac.uk/topics/uml_modeling,uml modeling,http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3,unified modelling language,Skill,0.7372
+https://cso.kmi.open.ac.uk/topics/uml_models,uml models,http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3,unified modelling language,Skill,0.7444
+https://cso.kmi.open.ac.uk/topics/unified_modeling_language,unified modeling language,http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3,unified modelling language,Skill,0.8711
+https://cso.kmi.open.ac.uk/topics/unified_modeling_language_%28uml%29,unified modeling language (uml),http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3,unified modelling language,Skill,0.9358
+https://cso.kmi.open.ac.uk/topics/unified_modelling_language,unified modelling language,http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3,unified modelling language,Skill,0.8928
+https://cso.kmi.open.ac.uk/topics/usability_assessment,usability assessment,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.8466
+https://cso.kmi.open.ac.uk/topics/usability_assessment,usability assessment,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6,measure software usability,Skill,0.7675
+https://cso.kmi.open.ac.uk/topics/usability_assessment,usability assessment,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.724
+https://cso.kmi.open.ac.uk/topics/usability_engineering,usability engineering,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.8896
+https://cso.kmi.open.ac.uk/topics/usability_engineering,usability engineering,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.756
+https://cso.kmi.open.ac.uk/topics/usability_evaluation,usability evaluation,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.8107
+https://cso.kmi.open.ac.uk/topics/usability_evaluation,usability evaluation,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6,measure software usability,Skill,0.7398
+https://cso.kmi.open.ac.uk/topics/usability_evaluation,usability evaluation,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.715
+https://cso.kmi.open.ac.uk/topics/usability_evaluation_methods,usability evaluation methods,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.7823
+https://cso.kmi.open.ac.uk/topics/usability_evaluation_methods,usability evaluation methods,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6,measure software usability,Skill,0.7242
+https://cso.kmi.open.ac.uk/topics/usability_evaluation_methods,usability evaluation methods,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.7031
+https://cso.kmi.open.ac.uk/topics/usability_methods,usability methods,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.7535
+https://cso.kmi.open.ac.uk/topics/usability_methods,usability methods,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.7298
+https://cso.kmi.open.ac.uk/topics/usability_problems,usability problems,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.7234
+https://cso.kmi.open.ac.uk/topics/usability_problems,usability problems,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.7009
+https://cso.kmi.open.ac.uk/topics/usability_requirements,usability requirements,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.7358
+https://cso.kmi.open.ac.uk/topics/usability_studies,usability studies,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.8081
+https://cso.kmi.open.ac.uk/topics/usability_studies,usability studies,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.7024
+https://cso.kmi.open.ac.uk/topics/usability_study,usability study,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.8467
+https://cso.kmi.open.ac.uk/topics/usability_study,usability study,http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc,application usability,Skill,0.7318
+https://cso.kmi.open.ac.uk/topics/usability_test,usability test,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.9129
+https://cso.kmi.open.ac.uk/topics/usability_test,usability test,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6,measure software usability,Skill,0.7206
+https://cso.kmi.open.ac.uk/topics/usability_testing,usability testing,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.9288
+https://cso.kmi.open.ac.uk/topics/usability_testing,usability testing,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6,measure software usability,Skill,0.7425
+https://cso.kmi.open.ac.uk/topics/usability_tests,usability tests,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9,usability engineering,Skill,0.902
+https://cso.kmi.open.ac.uk/topics/usability_tests,usability tests,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6,measure software usability,Skill,0.7383
+https://cso.kmi.open.ac.uk/topics/virtual_prototyping,virtual prototyping,http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c,Prototyping development,Skill,0.7793

@@ -1,0 +1,69 @@
+.entity-container {
+  background-color: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.entity-header {
+  padding: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  background-color: rgba(15, 23, 42, 0.3);
+}
+
+.entity-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.entity-type {
+  display: inline-block;
+  background-color: rgba(59, 130, 246, 0.2);
+  color: var(--accent);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.entity-content {
+  padding: 0;
+}
+
+.property-group {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.property-group:last-child {
+  border-bottom: none;
+}
+
+.property-name {
+  flex: 0 0 250px;
+  padding: 1.5rem 2rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background-color: rgba(15, 23, 42, 0.1);
+  border-right: 1px solid var(--border-color);
+}
+
+.property-values {
+  flex: 1;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.value-item {
+  display: flex;
+  align-items: center;
+}
+
+.value-item a {
+  font-weight: 500;
+}

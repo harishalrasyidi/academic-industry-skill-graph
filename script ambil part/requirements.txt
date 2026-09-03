@@ -1,0 +1,6 @@
+rdflib==7.6.0
+requests==2.34.2
+SPARQLWrapper==2.0.0
+sentence-transformers==3.0.0
+pandas==3.0.3
+scipy==1.17.1

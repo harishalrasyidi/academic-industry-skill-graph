@@ -1,0 +1,29 @@
+cso_uri,cso_label,wikidata_id,esco_uri,esco_type,match_type
+https://cso.kmi.open.ac.uk/topics/hdfs,hdfs,Q29120,e46291c7-52b9-4174-bd59-178884861038,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/hadoop,hadoop,Q29120,e46291c7-52b9-4174-bd59-178884861038,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/agile_software_development,agile software development,Q30232,dba46f87-0831-49cd-a1c7-340a653c0221,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/agile_methodologies,agile methodologies,Q30232,dba46f87-0831-49cd-a1c7-340a653c0221,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/agile_development,agile development,Q30232,dba46f87-0831-49cd-a1c7-340a653c0221,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/agile_methods,agile methods,Q30232,dba46f87-0831-49cd-a1c7-340a653c0221,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/software_design,software design,Q857102,3bddfd7c-ab6d-40c2-883d-5e97fb7640ba,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/open_source_system,open source system,Q39162,b16200f4-4f39-4b8b-aa9d-3568054d6bdb,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/cobol_%28programming_language%29,cobol (programming language),Q131140,def007fa-5fed-4a5f-91a2-b0d7e3db1be1,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_state_machine,uml state machine,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_activity_diagrams,uml activity diagrams,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_class_diagrams,uml class diagrams,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_modeling,uml modeling,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_sequence_diagrams,uml sequence diagrams,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/unified_modeling_language_%28uml%29,unified modeling language (uml),Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/unified_modelling_language,unified modelling language,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml,uml,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_diagrams,uml diagrams,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_2.0,uml 2.0,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_models,uml models,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_profile,uml profile,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/unified_modeling_language,unified modeling language,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/uml_model,uml model,Q169411,7193cb6d-8334-494f-86e5-21e6d03a47c3,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/software_developer,software developer,Q183888,f2b15a0e-e65a-438a-affb-29b9d50b77d1,occupation,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/iot,iot,Q251212,f049d050-12da-4e40-813a-2b5eb6df6b51,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/software_metrics,software metrics,Q657339,fb7aee4d-f6c6-4a87-8e9d-8e542b3771f8,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/devops,devops,Q3025536,f0de4973-0a70-4644-8fd4-3a97080476f4,skill,exact_via_wikidata
+https://cso.kmi.open.ac.uk/topics/reverse_engineering,reverse engineering,Q269608,8fdf4273-d8ce-47a2-b461-45cb1282ef36,skill,exact_via_wikidata
