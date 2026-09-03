@@ -1,4 +1,5 @@
 import httpx
+from urllib.parse import quote
 
 from .config import FUSEKI_QUERY_URL, FUSEKI_TIMEOUT_SECONDS
 
@@ -28,3 +29,14 @@ async def execute_sparql(query: str) -> dict:
         return response.json()
     except ValueError as exc:
         raise FusekiError("Fuseki mengirim respons yang bukan JSON SPARQL.", response.status_code) from exc
+
+
+async def execute_select(query: str) -> list[dict]:
+    result = await execute_sparql(query)
+    return result.get("results", {}).get("bindings", [])
+
+
+def sparql_iri(value: str) -> str:
+    if not value.startswith(("http://", "https://")) or any(character in value for character in "<>\"{}|^`"):
+        raise ValueError("URI RDF tidak valid.")
+    return f"<{quote(value, safe=':/#?=&_%.-')}>"

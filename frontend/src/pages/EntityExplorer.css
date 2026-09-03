@@ -67,3 +67,10 @@
 .value-item a {
   font-weight: 500;
 }
+
+.entity-error {
+  padding: 1rem 2rem;
+  color: #ffb4a8;
+  background: rgba(173, 61, 54, 0.18);
+  border-bottom: 1px solid #8e4540;
+}

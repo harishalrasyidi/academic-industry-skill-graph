@@ -8,6 +8,8 @@ Aplikasi Linked Open Data sederhana dengan FastAPI, Apache Jena Fuseki, SPARQL, 
 academic-industry-skill-graph/
 ├── README.md                         # Panduan instalasi, konfigurasi, dan penggunaan aplikasi
 ├── doc.md                            # Dokumentasi dan catatan penelitian versi sebelumnya
+├── docs/                             # Dokumentasi tambahan untuk penggunaan aplikasi
+│   └── demo-queries.md               # Kumpulan query SPARQL demo beserta penjelasannya
 ├── backend/                          # Backend FastAPI dan integrasi ke Fuseki
 │   ├── requirements.txt               # Daftar dependency Python backend
 │   ├── old_main.py                    # Entry point kompatibilitas yang mengekspor app FastAPI
