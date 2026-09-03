@@ -3,6 +3,7 @@ script ambil part/venv/
 ontology/esco-v1.2.1.ttl
 ontology/*.zip
 script ambil part/esco-v1.2.1-english.ttl
+script ambil part/2_esco_filtering/esco-v1.2.1-english.ttl
 
 # Python virtual environment
 venv/
