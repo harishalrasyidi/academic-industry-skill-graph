@@ -8,6 +8,11 @@ script ambil part/2_esco_filtering/esco-v1.2.1-english.ttl
 # Python virtual environment
 venv/
 */venv/
+backend/.venv/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
 
 # Python cache
 __pycache__/
@@ -15,3 +20,6 @@ __pycache__/
 
 # Environment
 .env
+
+# Local application requirement files
+requirement aplikasi/

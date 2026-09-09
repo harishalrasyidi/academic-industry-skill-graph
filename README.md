@@ -82,8 +82,10 @@ Folder `backend/` dan `frontend/` membentuk aplikasi yang dijalankan oleh penggu
 
 - Windows
 - Java yang kompatibel dengan Apache Jena Fuseki 6.2.0
+- Apache Jena Fuseki 6.2.0 sudah diekstrak di `C:\jena-fuseki\apache-jena-fuseki-6.2.0`
 - Python 3.10 atau lebih baru
 - Node.js 18 atau lebih baru
+- `curl.exe`, biasanya sudah tersedia di Windows 10/11
 
 ## 1. Jalankan Fuseki
 
@@ -92,10 +94,10 @@ Buka PowerShell pertama:
 ```powershell
 cd "C:\jena-fuseki\apache-jena-fuseki-6.2.0"
 New-Item -ItemType Directory -Force -Path "C:\jena-fuseki\lod-data"
-.\fuseki-server.bat --loc="C:\jena-fuseki\lod-data" /lod
+.\fuseki-server.bat --loc="C:\jena-fuseki\lod-data" /myDataset
 ```
 
-Fuseki berjalan di `http://localhost:3030`. Nama dataset yang aktif di mesin ini adalah `myDataset`, sehingga endpoint query yang valid adalah `http://localhost:3030/myDataset/query`.
+Fuseki berjalan di `http://localhost:3030` dengan nama dataset `myDataset`, sehingga endpoint query yang valid adalah `http://localhost:3030/myDataset/query`.
 
 Jika Anda memulai Fuseki dengan dataset lain, misalnya `/lod`, maka endpoint yang benar akan menjadi `http://localhost:3030/lod/query`. Pilih satu nama dataset dan gunakan nama itu secara konsisten di semua perintah.
 
