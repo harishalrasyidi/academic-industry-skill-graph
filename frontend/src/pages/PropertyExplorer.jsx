@@ -8,7 +8,7 @@ function PropertyExplorer() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:8000'}/api/properties?uri=${encodeURIComponent(uri)}`)
+    fetch(`${import.meta.env.VITE_API_URL || ''}/api/properties?uri=${encodeURIComponent(uri)}`)
       .then(async (response) => { const payload = await response.json(); if (!response.ok) throw new Error(payload.detail); return payload; })
       .then(setProperty)
       .catch((requestError) => setError(requestError.message || 'Property tidak dapat dimuat.'));

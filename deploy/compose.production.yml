@@ -1,0 +1,52 @@
+name: academic-industry-skill-graph
+
+services:
+  fuseki:
+    build:
+      context: ./fuseki
+      args:
+        JENA_VERSION: "6.2.0"
+    image: academic-industry-skill-graph/fuseki:6.2.0
+    command: ["--loc=/fuseki-data", "--update", "/myDataset"]
+    restart: unless-stopped
+    networks:
+      lod-internal:
+        aliases:
+          - fuseki
+    volumes:
+      - fuseki-data:/fuseki-data
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://127.0.0.1:3030/"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  backend:
+    build:
+      context: ../backend
+    image: academic-industry-skill-graph/backend:1.0.0
+    env_file:
+      - ../.env.production
+    restart: unless-stopped
+    depends_on:
+      fuseki:
+        condition: service_healthy
+    networks:
+      lod-internal:
+    ports:
+      - "127.0.0.1:${BACKEND_HOST_PORT:-8000}:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+networks:
+  lod-internal:
+    # Fuseki remains private because it has no published ports.
+
+volumes:
+  fuseki-data:
+    name: academic-industry-skill-graph-fuseki-data

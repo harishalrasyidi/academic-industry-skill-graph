@@ -10,6 +10,12 @@ academic-industry-skill-graph/
 ├── doc.md                            # Dokumentasi dan catatan penelitian versi sebelumnya
 ├── docs/                             # Dokumentasi tambahan untuk penggunaan aplikasi
 │   └── demo-queries.md               # Kumpulan query SPARQL demo beserta penjelasannya
+│   └── project-summary-for-ai.md     # Ringkasan project untuk diskusi dengan AI
+├── deploy/                            # Artefak deployment production
+│   ├── compose.production.yml         # Compose untuk backend dan Fuseki
+│   ├── fuseki/Dockerfile              # Image Fuseki 6.2.0 berbasis Java 21
+│   └── nginx/                         # Contoh konfigurasi Nginx host
+│       └── academic-industry-skill-graph.conf.example
 ├── backend/                          # Backend FastAPI dan integrasi ke Fuseki
 │   ├── requirements.txt               # Daftar dependency Python backend
 │   ├── old_main.py                    # Entry point kompatibilitas yang mengekspor app FastAPI
@@ -126,10 +132,14 @@ cd backend
 py -3 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
+$env:FUSEKI_QUERY_URL = "http://localhost:3030/myDataset/query"
+$env:CORS_ALLOW_ORIGINS = "http://localhost:5173,http://127.0.0.1:5173"
 python -m uvicorn app.main:app --reload --port 8000
 ```
 
 Jika PowerShell memblokir aktivasi script, jalankan `Set-ExecutionPolicy -Scope Process Bypass` terlebih dahulu. URL API adalah `http://localhost:8000`; dokumentasi otomatis tersedia di `/docs`.
+
+Frontend development menggunakan proxy Vite untuk `/api`, sehingga browser tetap memanggil URL relatif dan tidak membutuhkan URL backend production di source code.
 
 Fuseki dapat diarahkan ke URL lain dengan environment variable. Contoh untuk dataset `myDataset`:
 
@@ -170,3 +180,108 @@ ORDER BY ?name
 ```
 
 Alur aplikasi: browser mengirim query JSON ke `POST /api/query`, FastAPI meneruskannya sebagai `application/sparql-query` ke Fuseki, lalu mengembalikan SPARQL Results JSON ke tabel frontend. Query yang tidak valid atau Fuseki yang tidak tersedia ditampilkan sebagai error di UI.
+
+## Production dengan Docker Compose
+
+Production menggunakan Compose untuk backend dan Fuseki saja. Frontend tetap dibuild sebagai static files lalu disajikan oleh Nginx host; Vite development server tidak digunakan di production.
+
+### Arsitektur production
+
+```text
+Internet
+   |
+Nginx host :80/:443
+   |-- frontend/dist/
+   `-- /api -> 127.0.0.1:8000
+      |
+    backend container
+      |
+    private Docker network
+      |
+    Fuseki container :3030
+      |
+    named volume TDB2
+```
+
+Fuseki tidak mem-publish port ke host. Backend hanya mem-publish port `127.0.0.1:8000`, sehingga tidak tersedia langsung dari internet. Keduanya tetap berkomunikasi melalui private Docker network, dan Nginx host menjadi satu-satunya entry point publik. Fuseki dijalankan dengan flag `--update` agar proses import manual melalui Graph Store dapat menulis dataset.
+
+### Build frontend production
+
+Di host deployment yang memiliki Node.js:
+
+```bash
+cd frontend
+npm ci
+npm run build
+```
+
+Sajikan `frontend/dist/` dengan konfigurasi contoh di `deploy/nginx/`.
+
+### Siapkan environment Compose
+
+Dari root project:
+
+```bash
+cp .env.production.example .env.production
+chmod 600 .env.production
+```
+
+Nilai penting dalam `.env.production`:
+
+```env
+FUSEKI_QUERY_URL=http://fuseki:3030/myDataset/query
+FUSEKI_TIMEOUT_SECONDS=30
+CORS_ALLOW_ORIGINS=
+BACKEND_HOST_PORT=8000
+```
+
+`FUSEKI_QUERY_URL` memakai nama service Compose `fuseki`, bukan `localhost`. File `.env.production` tidak boleh di-commit.
+
+### Build dan start service
+
+```bash
+docker compose --file deploy/compose.production.yml build
+docker compose --file deploy/compose.production.yml up --detach
+docker compose --file deploy/compose.production.yml ps
+```
+
+Compose menjalankan Uvicorn tanpa `--reload`. Restart container tidak meng-import ontology secara otomatis.
+
+### Initial dataset import, manual dan satu kali
+
+Import dataset adalah lifecycle terpisah dari startup aplikasi. Setelah service Fuseki sehat, upload ontology secara eksplisit:
+
+```bash
+docker run --rm \
+  --network academic-industry-skill-graph_lod-internal \
+  --volume "$PWD/ontology/OBC-ONTO/OBC-ONTO-Instance copy.ttl:/tmp/obc-instance.ttl:ro" \
+  curlimages/curl:8.12.1 \
+  --fail --request POST \
+  --url http://fuseki:3030/myDataset/data \
+  --header 'Content-Type: text/turtle' \
+  --data-binary @/tmp/obc-instance.ttl
+```
+
+Pada Compose production port Fuseki sengaja tidak dipublish. Command admin di atas hanya membuat container curl sementara yang bergabung ke private Docker network; proses ini tetap manual dan tidak berjalan saat startup. Jangan menambahkan import otomatis ke `entrypoint`.
+
+### Backup dan update
+
+Volume TDB2 bernama `academic-industry-skill-graph-fuseki-data` dan tetap hidup walaupun container di-rebuild:
+
+```bash
+docker volume inspect academic-industry-skill-graph-fuseki-data
+docker compose --file deploy/compose.production.yml down
+docker compose --file deploy/compose.production.yml up --detach
+```
+
+Jangan menjalankan `docker compose down --volumes` kecuali memang ingin menghapus dataset. Backup volume harus disimpan di lokasi terpisah dari VPS.
+
+Untuk update image aplikasi:
+
+```bash
+git pull origin main
+docker compose --file deploy/compose.production.yml build backend
+docker compose --file deploy/compose.production.yml up --detach backend
+```
+
+Update backend tidak mengubah volume Fuseki dan tidak menjalankan import dataset.

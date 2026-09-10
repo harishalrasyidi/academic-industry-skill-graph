@@ -11,6 +11,8 @@ class FusekiError(Exception):
 
 
 async def execute_sparql(query: str) -> dict:
+    if not FUSEKI_QUERY_URL:
+        raise FusekiError("FUSEKI_QUERY_URL belum dikonfigurasi.")
     try:
         async with httpx.AsyncClient(timeout=FUSEKI_TIMEOUT_SECONDS) as client:
             response = await client.post(

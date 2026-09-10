@@ -2,13 +2,14 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from .fuseki import FusekiError, execute_select, execute_sparql, sparql_iri
+from .config import CORS_ALLOW_ORIGINS
 from .schemas import SparqlQueryRequest
 
 app = FastAPI(title="LOD Explorer SPARQL API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=list(CORS_ALLOW_ORIGINS),
     allow_credentials=False,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
