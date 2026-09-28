@@ -277,11 +277,14 @@ Query Service tersedia di:
 http://localhost:5173/query
 ```
 
-## 9. Tidak Digunakan oleh Runtime Aplikasi
+## 9. Komponen Runtime dan Eksperimen
 
-Saat ini aplikasi web tidak menggunakan:
+Pada local development, aplikasi web menjalankan FastAPI dan Fuseki secara terpisah.
+Pada production, backend dan Fuseki dijalankan menggunakan Docker Compose, sedangkan
+frontend dibuild sebagai static files untuk Nginx.
 
-- Docker atau Docker Compose;
+Aplikasi web tidak menggunakan:
+
 - Kubernetes;
 - PostgreSQL;
 - MySQL;
@@ -328,18 +331,20 @@ Node.js digunakan untuk:
 
 Node.js bukan runtime backend production aplikasi ini. Hasil React production dapat disajikan sebagai static files melalui Nginx.
 
-## 11. Rekomendasi Deployment Global
+## 11. Deployment Production Saat Ini
 
-Untuk kondisi awal, aplikasi dapat dideploy di satu VPS menggunakan:
+Deployment production yang digunakan saat ini berada pada satu VPS menggunakan:
 
 ```text
-Nginx
-FastAPI/Uvicorn sebagai systemd service
-Apache Jena Fuseki sebagai systemd service
+Nginx host
+FastAPI dalam Docker Compose
+Apache Jena Fuseki dalam Docker Compose
 React production build sebagai static files
+Docker named volume untuk data TDB2
 ```
 
-Docker bersifat opsional. Kubernetes belum diperlukan karena aplikasi masih memiliki satu VPS dan beberapa service sederhana.
+Detail langkah deployment tersedia di `docs/production-deployment-flow.md`.
+Kubernetes belum digunakan karena aplikasi masih memiliki satu VPS dan beberapa service sederhana.
 
 Fuseki dan FastAPI sebaiknya hanya listen pada localhost; hanya Nginx yang dibuka ke publik melalui port 80/443.
 
@@ -359,7 +364,6 @@ Spesifikasi tersebut cukup untuk demo, penelitian, dan sekitar 1-10 user bersama
 
 Gunakan konteks di atas untuk mendiskusikan:
 
-- apakah deployment sebaiknya menggunakan Docker Compose atau systemd langsung;
 - bagaimana membuat Fuseki production-ready;
 - bagaimana backup dan restore dataset TDB2;
 - bagaimana membuat CI/CD dari GitHub ke VPS;

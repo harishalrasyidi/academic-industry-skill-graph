@@ -8,6 +8,8 @@ services:
         JENA_VERSION: "6.2.0"
     image: academic-industry-skill-graph/fuseki:6.2.0
     command: ["--loc=/fuseki-data", "--update", "/myDataset"]
+    environment:
+      JVM_ARGS: "-Xms256m -Xmx768m"
     restart: unless-stopped
     networks:
       lod-internal:
